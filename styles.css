@@ -1,1 +1,151 @@
 /* your code here */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: lightgreen;
+    
+}
+.product{
+    background-color: #ffffff;
+    margin:  30% 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photo-container{
+    background-color:#BAEB49;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.photo-main{
+    background-color:#BAEB49;
+    width: 18rem;
+
+    border-radius: 10px 10px 0px 0px;
+    
+    
+}
+
+#im{
+width: 19rem;
+}
+
+
+.controls{
+    background-color:#BAEB49;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: #FCFEF9;
+}
+
+.photo-album{
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+
+}
+.uli{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+.product__info{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.title{
+background-color: #ffffff;
+font-size: larger;
+color: #4C4C4C;
+}
+#cd{
+    color: #EAEAEA;
+    font-size: 10px;
+}
+
+.price{
+    background-color: #ffffff;
+    }
+
+#price{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #FE3F40;
+}
+#rup{
+    font-size: 100px;
+    font-weight: lighter;
+    color: #FE3F40;
+}
+
+.variant{
+        background-color: #ffffff;
+        color: #B7B7B7;
+        padding: 10px;
+        }
+
+.variant>ul>li{
+   list-style: none;
+   display: inline;
+   justify-content: space-around;
+    padding: 10px;
+    
+    
+}
+
+.variant>ul{
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+
+.description{
+    background-color: #ffffff;
+    padding: 10px;
+    
+} 
+
+.description>ul>li{
+    font-weight: bold;
+    padding: 2px;
+    margin-left:80px; 
+}
+
+
+.description>h3{
+    color: #B7B7B7;
+    
+}
+
+#btn{
+    padding: 15px 30px;
+    font-weight: 900;
+    color: white;
+    background-color:#FE3F40;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+}
