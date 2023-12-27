@@ -1,151 +1,104 @@
 /* your code here */
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+*{ 
+	padding:0px;
+	margin:0px;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 body{
-    background-color: lightgreen;
-    
+	background:green;
+	
 }
 .product{
-    background-color: #ffffff;
-    margin:  30% 20%;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
+	background:lightgreen;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:white;
+	padding-inline:20px;
+	width:400px;
+	height:375px;
+	margin:50px 0px 0px 150px;
+	padding-right:1px;
 }
-
 .photo-container{
-    background-color:#BAEB49;
-    border-radius: 10px 10px 10px 10px;
-
+	display:flex;
+	flex-direction: column;
+	width:200px;
+	margin-left:-50px;
 }
-
-.photo-main{
-    background-color:#BAEB49;
-    width: 18rem;
-
-    border-radius: 10px 10px 0px 0px;
-    
-    
-}
-
-#im{
-width: 19rem;
-}
-
-
 .controls{
-    background-color:#BAEB49;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 10px;
-    border-radius: 10px 10px 0px 0px;
-    color: #FCFEF9;
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
 }
-
+.photo-main{
+	background:lightgreen;
+}
+.photo-album > ul {
+	display:flex;
+	list-style:none;
+}
+.photo-main > img{
+	width:200px;
+	margin-left:-50px;
+	
+}
 .photo-album{
-    background-color: #ffffff;
-    border-radius: 0px 0px 10px 10px;
-
+	padding:10px;
+	background:white;
 }
-.uli{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 20px;
+.photo-album > ul > li > img{
+	width:30px;
+	margin-inline:5px;
+	border:1px solid gray;
 }
-
-
-
-
-
-
+.second-ul{
+	display:flex;
+	list-style:none;
+}
+.second-ul>li>img{
+	width:30px;
+	margin:15px 0px 15px 5px;
+}
 .product__info{
-    background-color: #ffffff;
-    padding: 10px;
+	display:flex;
+	flex-direction: column;
+	margin-left:-170px;
 }
-
-.title{
-background-color: #ffffff;
-font-size: larger;
-color: #4C4C4C;
+.title>h1{
+	font-size:20px;
 }
-#cd{
-    color: #EAEAEA;
-    font-size: 10px;
+.title>span{
+	margin-top:0px;
+	font-size:10px;
+	 color:lightgray;
 }
-
 .price{
-    background-color: #ffffff;
-    }
-
-#price{
-    font-size: 30px;
-    font-weight: lighter;
-    color: #FE3F40;
+	color:red;
+	font-size:30px;
+	margin:20px;
 }
-#rup{
-    font-size: 100px;
-    font-weight: lighter;
-    color: #FE3F40;
+.variant>h3{
+   color:gray;
+	font-size:10px;
 }
-
-.variant{
-        background-color: #ffffff;
-        color: #B7B7B7;
-        padding: 10px;
-        }
-
-.variant>ul>li{
-   list-style: none;
-   display: inline;
-   justify-content: space-around;
-    padding: 10px;
-    
-    
-}
-
-.variant>ul{
-    padding-left: 50px;
-    padding-right: 50px;
-
-
-}
-
-
-.description{
-    background-color: #ffffff;
-    padding: 10px;
-    
-} 
-
-.description>ul>li{
-    font-weight: bold;
-    padding: 2px;
-    margin-left:80px; 
-}
-
-
 .description>h3{
-    color: #B7B7B7;
-    
-}
+	   color:gray;
+	font-size:10px;
 
-#btn{
-    padding: 15px 30px;
-    font-weight: 900;
-    color: white;
-    background-color:#FE3F40;
-    border-radius: 10px;
-    border: none;
-    margin: 10px 0px;
+}
+.description>ul{
+	margin-left:20px
+}
+.description>ul>li{
+	font-size:12px;
+	margin:8px
+	
+}
+.btn>button{
+	background:red;
+	color:white;
+	padding:10px;
+	border-radius:5px;
+	border-color:transparent;
 }
